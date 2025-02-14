@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>情人节快乐！</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #ffe6f2; /* 淡粉色背景 */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #e91e63; /* 粉色标题 */
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .heart {
+            color: #f44336; /* 红色爱心 */
+            font-size: 3em;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .message {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            max-width: 80%;
+        }
+
+        img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* 按钮样式 */
+        .button {
+            background-color: #e91e63;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none; /* 移除链接下划线 */
+        }
+
+        .button:hover {
+            background-color: #c2185b;
+        }
+
+    </style>
+</head>
+<body>
+    <audio autoplay loop controls style="display:none;">
+        <source src="love_song.mp3" type="audio/mpeg">
+        你的浏览器不支持音频播放。
+    </audio>
+
+    <h1>情人节快乐，亲爱的！</h1>
+
+    <i class="heart">❤️</i>
+
+    <div class="message">
+        <p>在这个特别的日子里，我想对你说：感谢你一直以来的陪伴和爱。你是我生命中最重要的人。</p>
+        <p>愿我们的爱情像今天一样甜蜜，永远幸福美满！</p>
+    </div>
+
+    <img src="zyd.jpg" alt="你和老婆的照片">  <!-- 替换成你和老婆的照片 -->
+
+    <a href="#" class="button">永远爱你!</a>
+
+    <script>
+        // 你可以在这里添加一些JavaScript代码，例如：
+        // - 播放一首浪漫的音乐
+        // - 显示一个动画效果
+        // - 弹出一些特别的信息
+    </script>
+
+</body>
+</html>
